@@ -10,7 +10,7 @@ return [
             'defaultTimeZone' => 'Asia/Kolkata',
         ],
         'dataCache' => [
-            'class' => 'yii\caching\FileCache',
+            'class' => 'yii\caching\ApcCache',
         ],
         /*'cache' => [
             'class' => 'yii\caching\ApcCache',
